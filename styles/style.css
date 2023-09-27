@@ -4,7 +4,7 @@
     --dark-gray: #393e41;
     --middle-gray: #71827d;
     --light-gray: #cdc7be;
-    --light-green: #74d374;
+    --light-green: #038603;
     --middle-green: #188f30;
     --dark-green: #04290c;
 }
@@ -14,7 +14,15 @@
     padding: 0;
 }
 
+/** Section Header */
+#navbar {
+    background-color: var(--dark-gray) !important;
+}
 
+.a-green {
+    color: var(--light-green) !important;
+    font-weight: 500;
+}
 
 /** Section Hero */ 
 .bg-image {
@@ -27,7 +35,7 @@
 }
 
 .btn-success {
-    background-color: var(--middle-green) !important;
+    background-color: var(--light-green) !important;
 }
 
 .btn-success:hover {
@@ -35,6 +43,9 @@
     color: var(--dark-green);
 }
 
+.navbar-expand-lg .navbar-collapse {
+    justify-content: end;
+}
 
 @media screen and (min-width: 768px) {
     .hero-content {
@@ -55,3 +66,4 @@
     }
 
 }
+
