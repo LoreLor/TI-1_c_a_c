@@ -5,7 +5,7 @@
     --middle-gray: #71827d;
     --light-gray: #cdc7be;
     --light-green: #038603;
-    --middle-green: #188f30;
+    --middle-green: #1e5c2b;
     --dark-green: #04290c;
 }
 
@@ -39,12 +39,18 @@
 }
 
 .btn-success:hover {
-    background-color: var(--light-green) !important;
+    background-color: var(--middle-green) !important;
     color: var(--dark-green);
 }
 
 .navbar-expand-lg .navbar-collapse {
     justify-content: end;
+}
+
+/** Section Oradores */
+.card-img-top {
+    height: 22rem;
+    object-fit: cover;
 }
 
 @media screen and (min-width: 768px) {
