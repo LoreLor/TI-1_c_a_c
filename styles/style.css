@@ -1,0 +1,57 @@
+:root{
+    --dark-blue: #0d0e11;
+    --middle-blue: #325f8b;
+    --dark-gray: #393e41;
+    --middle-gray: #71827d;
+    --light-gray: #cdc7be;
+    --light-green: #74d374;
+    --middle-green: #188f30;
+    --dark-green: #04290c;
+}
+
+* {
+    margin:0;
+    padding: 0;
+}
+
+
+
+/** Section Hero */ 
+.bg-image {
+    width: 100%;
+    height: auto;
+    background-image:linear-gradient(rgba(8, 18, 24, 0.507), rgba(8, 18, 24, 0.507)), url('../assets/ba1.jpg');
+    background-position: center;
+    background-size: cover;
+    filter: contrast(1.1);
+}
+
+.btn-success {
+    background-color: var(--middle-green) !important;
+}
+
+.btn-success:hover {
+    background-color: var(--light-green) !important;
+    color: var(--dark-green);
+}
+
+
+@media screen and (min-width: 768px) {
+    .hero-content {
+        justify-content: center !important;
+        align-items: end !important;
+        height: 100vh;
+    }
+
+    .text-content {
+        text-align: end;
+        width: 55%;
+        padding-right: 6rem !important;
+    }
+
+    .btn-custom{
+        justify-content: flex-end !important;
+        gap:1rem;
+    }
+
+}
