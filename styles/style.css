@@ -15,7 +15,7 @@
 }
 
 /** Section Header */
-#navbar {
+#navbar, .bg-date-card {
     background-color: var(--dark-gray) !important;
 }
 
@@ -53,6 +53,9 @@
     object-fit: cover;
 }
 
+/** Section Lugar y Fecha */
+
+
 @media screen and (min-width: 768px) {
     .hero-content {
         justify-content: center !important;
@@ -69,6 +72,10 @@
     .btn-custom{
         justify-content: flex-end !important;
         gap:1rem;
+    }
+
+    #lugar {
+        height: 100%;
     }
 
 }
