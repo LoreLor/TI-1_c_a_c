@@ -25,6 +25,10 @@ main {
     flex-grow: 1;
 }
 
+a{
+    text-decoration: none;
+}
+
 
 /** Section Header */
 #navbar, .bg-date-card{
@@ -50,16 +54,11 @@ main {
     background-color: var(--light-green) !important;
 }
 
-.btn-success:hover {
-    background-color: var(--middle-green) !important;
-    color: var(--dark-green);
-}
-
 .btn-submit{
     background-color: var(--middle-green) !important;
 }
 
-.btn-submit:hover{
+.btn-submit:hover, .btn-success:hover{
     background-color: var(--light-gray) !important;
     color: var(--dark-green) !important;
 }
@@ -82,7 +81,7 @@ main {
 
 /**Section Footer*/
 footer {
-    background-color: var(--middle-blue);
+    background: linear-gradient(90deg, rgba(58,81,104,1) 0%, rgb(36, 75, 117) 100%, rgba(0,212,255,1) 100%);
 }
 
 @media screen and (min-width: 768px) {
