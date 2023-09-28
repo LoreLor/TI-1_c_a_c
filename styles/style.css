@@ -54,7 +54,10 @@
 }
 
 /** Section Lugar y Fecha */
-
+.img-fluid{
+    width: 100%;
+    height: auto;
+}
 
 @media screen and (min-width: 768px) {
     .hero-content {
@@ -74,8 +77,8 @@
         gap:1rem;
     }
 
-    #lugar {
-        height: 100%;
+    #lugar, .img-fluid {
+        height: 70vh;
     }
 
 }
