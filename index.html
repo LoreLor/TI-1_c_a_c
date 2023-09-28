@@ -23,7 +23,7 @@
                     <div class="collapse navbar-collapse" id="navbarNavDropdown">
                         <ul class="navbar-nav justify-content-end">
                             <li class="nav-item">
-                                <a class="nav-link active text-white" aria-current="page" href="#hero">La Conferencia</a>
+                                <a class="nav-link active text-white" aria-current="page" href="#hero" data-target="hero">La Conferencia</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#oradores">Los Oradores</a>
@@ -44,7 +44,7 @@
         </header>
 
         <main>
-            <section id="hero" class="mt-5 pt-4">
+            <section id="hero">
                 <div class="d-flex bg-image">
                     <div class="d-flex flex-column justify-content-center align-items-center text-center hero-content">
                         <div class="text-content text-white p-2 ">
@@ -66,12 +66,12 @@
             </section>
 
             <section id="oradores">
-                <div class="container mb-4">
+                <div class="container">
                     <div class="d-flex flex-column justify-content-center align-items-center">
                         <P class="fs-6">CONOCE A LOS</P>
                         <h2 class="pb-2">ORADORES</h2>
                     </div>
-                    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3">
+                    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3 my-3">
                         <div class="col">
                             <div class="card h-100">
                                 <img src="./assets/steve.jpg" class="card-img-top" alt="Steve Jobs">
@@ -111,20 +111,21 @@
 
             <section id="lugar">
                 <div class="card" style="max-width: 100%;">
-                    <div class="row g-0">
-                        <div class="col-md-6">
-                            <img src="./assets/honolulu.jpg" class="img-fluid" alt="Honolulu">
-                        </div>
-                        <div class="col-md-6 bg-date-card text-white">
-                            <div class="card-body">
-                            <h5 class="card-title fs-3">Bs As - Octubre</h5>
-                            <p class="card-text">
-                                Buenos Aires es la provincia y la localidad más grande del estado de Argentina. En los Estados Unidos, Honolulu es la más sureña de entre las principales ciudades estadounidenses. Aunque el nombre de Honolulu se refiere al área urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de Honolulu han formado una ciudad-condado consolidada que cubre toda la ciudad (aproximadamente 600km² de superficie).
-                            </p>
-                            <button class="btn btn-outline-light ms-3">Conocé más</button>
+                        <div class="row g-0">
+                            <div class="col-md-6">
+                                <img src="./assets/honolulu.jpg" class="img-fluid" alt="Honolulu">
+                            </div>
+                            <div class="col-md-6 bg-date-card text-white">
+                                <div class="card-body">
+                                <h5 class="card-title fs-3">Bs As - Octubre</h5>
+                                <p class="card-text">
+                                    Buenos Aires es la provincia y la localidad más grande del estado de Argentina. En los Estados Unidos, Honolulu es la más sureña de entre las principales ciudades estadounidenses. Aunque el nombre de Honolulu se refiere al área urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de Honolulu han formado una ciudad-condado consolidada que cubre toda la ciudad (aproximadamente 600km² de superficie).
+                                </p>
+                                <button class="btn btn-outline-light ms-3">Conocé más</button>
+                                </div>
                             </div>
                         </div>
-                    </div>
+                
                 </div>
             </section>
 
@@ -142,6 +143,7 @@
                                     class="form-control text-black-50" 
                                     id="name"
                                     placeholder="Nombre"
+                                    required
                                 >
                             </div>
                             <div class="col-md-6">
@@ -150,11 +152,12 @@
                                     class="form-control text-black-50" 
                                     id="apellido"
                                     placeholder="Apellido"
+                                    required
                                 >
                             </div>
                             <div>
                                 <textarea
-                                    class="form-control fs-5"
+                                    class="form-control fs-5 text-black-50"
                                     id="message"
                                     rows="3"
                                     placeholder="Sobre qué quieres hablar?"
