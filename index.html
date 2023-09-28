@@ -11,7 +11,7 @@
 
 <body>
         <header>
-            <nav class="navbar navbar-expand-lg fixed-top px-5" id="navbar">
+            <nav class="navbar navbar-expand-lg fixed-top mb-3" id="navbar">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#">
                         <img src="./assets/codoacodo.png" alt="Logo Codo a Codo" width="100">
@@ -45,7 +45,7 @@
 
         <main>
             <section id="hero">
-                <div class="d-flex bg-image my-5 pt-5">
+                <div class="d-flex bg-image">
                     <div class="d-flex flex-column justify-content-center align-items-center text-center hero-content">
                         <div class="text-content text-white p-2 ">
                             <h2 class="mb-3 fs-1">
@@ -66,7 +66,7 @@
             </section>
 
             <section id="oradores">
-                <div class="container mb-5">
+                <div class="container mb-4">
                     <div class="d-flex flex-column justify-content-center align-items-center">
                         <P class="fs-6">CONOCE A LOS</P>
                         <h2 class="pb-2">ORADORES</h2>
@@ -109,7 +109,7 @@
                 </div>
             </section>
 
-            <section id="lugar" class="my-5">
+            <section id="lugar">
                 <div class="card" style="max-width: 100%;">
                     <div class="row g-0">
                         <div class="col-md-6">
@@ -127,10 +127,84 @@
                     </div>
                 </div>
             </section>
+
+            <section id="formulario">
+                <div class="container">
+                    <div class="d-flex flex-column justify-content-center align-items-center">
+                        <P class="fs-6 text-uppercase">conviertete en un</P>
+                        <h2 class="pb-2 text-uppercase">orador</h2>
+                    </div>
+                    <div class="container-lg d-flex flex-column contact">
+                        <form class="row g-3 form-content">
+                            <div class="col-md-6">
+                                <input 
+                                    type="text" 
+                                    class="form-control text-black-50" 
+                                    id="name"
+                                    placeholder="Nombre"
+                                >
+                            </div>
+                            <div class="col-md-6">
+                                <input 
+                                    type="text" 
+                                    class="form-control text-black-50" 
+                                    id="apellido"
+                                    placeholder="Apellido"
+                                >
+                            </div>
+                            <div>
+                                <textarea
+                                    class="form-control fs-5"
+                                    id="message"
+                                    rows="3"
+                                    placeholder="Sobre qué quieres hablar?"
+                                ></textarea>
+                                    <small class="text-black-50">Recuerda incluir un texto para tu charla</small>
+                            </div>
+                            <div class="col-12 d-flex justify-content-end mb-4">
+                                <button 
+                                    type="submit" 
+                                    class="btn btn-submit fs-4 text-white fw-semibold mb-3 py-2 d-block w-100"
+                                >
+                                    Enviar
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
         </main>
 
-        <footer>
-
+        <footer class="text-white">
+            <div class="container">
+                <div class="row text-center d-flex justify-content-center py-4">
+                    <div class="col-md-2">
+                        <h6 class="text-capitalize font-weight-bold">
+                        <a href="#!" class="text-white">About us</a>
+                        </h6>
+                    </div>
+                    <div class="col-md-2">
+                        <h6 class="text-uppercase font-weight-bold">
+                        <a href="#!" class="text-white">Products</a>
+                        </h6>
+                    </div>
+                    <div class="col-md-2">
+                        <h6 class="text-uppercase font-weight-bold">
+                        <a href="#!" class="text-white">Awards</a>
+                        </h6>
+                    </div>
+                    <div class="col-md-2">
+                        <h6 class="text-uppercase font-weight-bold">
+                        <a href="#!" class="text-white">Help</a>
+                        </h6>
+                    </div>
+                    <div class="col-md-2">
+                        <h6 class="text-uppercase font-weight-bold">
+                        <a href="#!" class="text-white">Contact</a>
+                        </h6>
+                    </div>
+                </div>
+            </div>
         </footer>
 
     <!-- Boostrap -->
