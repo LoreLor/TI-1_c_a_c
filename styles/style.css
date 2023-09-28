@@ -5,6 +5,7 @@
     --middle-gray: #71827d;
     --light-gray: #cdc7be;
     --light-green: #038603;
+    --white: #f0f3e0;
     --middle-green: #6dc23c;
     --dark-green: #04290c;
 }
@@ -35,9 +36,19 @@ a{
     background-color: var(--dark-gray) !important;
 }
 
+.nav-link {
+    color: var(--light-gray);
+}
+
+
 .a-green {
     color: var(--light-green) !important;
     font-weight: 500;
+    font-size: 1.05rem !important;
+}
+
+.a-green:hover {
+    color: var(--dark-blue) !important;
 }
 
 /** Section Hero */ 
@@ -81,7 +92,7 @@ a{
 
 /**Section Footer*/
 footer {
-    background: linear-gradient(90deg, rgba(58,81,104,1) 0%, rgb(36, 75, 117) 100%, rgba(0,212,255,1) 100%);
+    background: linear-gradient(90deg, rgb(6, 35, 65) 0%, rgb(44, 80, 119) 100%);
 }
 
 @media screen and (min-width: 768px) {
