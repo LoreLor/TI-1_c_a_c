@@ -26,7 +26,6 @@ main {
     flex-grow: 1;
 }
 
-
 a{
     text-decoration: none;
 }
@@ -45,7 +44,6 @@ a{
 .nav-link {
     color: var(--light-gray);
 }
-
 
 .a-green {
     color: var(--light-green) !important;
@@ -142,9 +140,5 @@ footer {
     .contact {
         padding: 0 8rem;
     }
-
-
-
-
 }
 
