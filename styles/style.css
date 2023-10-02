@@ -37,6 +37,11 @@ a{
     background-color: var(--dark-gray) !important;
 }
 
+.navbar-toggler{
+    color: #cdc7be !important;
+    border: 1px solid var(--light-gray);
+}
+
 .nav-link {
     color: var(--light-gray);
 }
@@ -85,10 +90,16 @@ a{
     object-fit: cover;
 }
 
+
 /** Section Lugar y Fecha */
 .img-fluid{
     width: 100%;
     height: auto;
+}
+
+/** Section Form */
+span.text-dotted {
+    border-bottom: 2px dotted var(--dark-blue) !important;
 }
 
 /**Section Footer*/
