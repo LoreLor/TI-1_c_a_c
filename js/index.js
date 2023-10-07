@@ -16,4 +16,9 @@ form.addEventListener("submit",(e) => {
     name.value = "";
     lastName.value = "";
     message.value = "";
+
+    setTimeout(() => {
+        confirmatinMesagge.style.display = "none";
+    }, 3000);
+
 });
