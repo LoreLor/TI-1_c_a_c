@@ -60,6 +60,7 @@
                             <a class="btn btn-outline-light fw-semibold mb-3" href="#formulario" role="button">Quiero ser orador</a>
                             <button 
                                 type="button" 
+                                id="btn"
                                 class="btn btn-success fw-semibold mb-3"
                                 onClick='navigateTicketek()'
                                 >Comprar tickets
@@ -145,7 +146,8 @@
                     <p>Anótate como orador para dar una <span class="text-dotted">charla ignite</span>. Cuéntanos de qué quieres hablar!</p>
                 </div>
                 <div class="container-lg d-flex flex-column contact">
-                    <form class="row g-3 form-content">
+                    
+                    <form class="row g-3 form-content" id="messageForm">
                         <div class="col-md-6">
                             <input 
                                 type="text" 
@@ -159,7 +161,7 @@
                             <input 
                                 type="text" 
                                 class="form-control text-black-50" 
-                                id="apellido"
+                                id="lastName"
                                 placeholder="Apellido"
                                 required
                             >
@@ -182,6 +184,9 @@
                             </button>
                         </div>
                     </form>
+                    <div id="confirmationMessage" class="message-send">
+                        ¡Mensaje enviado con éxito!
+                    </div>
                 </div>
             </div>
         </section>
