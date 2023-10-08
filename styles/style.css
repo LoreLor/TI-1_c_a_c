@@ -118,6 +118,20 @@ footer {
     font-weight: 600;
 }
 
+.up a {
+    background: var(--dark-blue);
+    color:var(--white);
+    text-align: right;
+    transition: var(--transition);
+    font-size: 1rem;
+    padding: 1rem;
+  }
+  
+  .up a:hover{
+    transition: all 0.5s ease-in;
+    color:var(--middle-green);
+  }
+
 @media screen and (min-width: 768px) {
     #navbar{
         padding: 0.5rem 1.5rem;
