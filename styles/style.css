@@ -119,7 +119,7 @@ footer {
 }
 
 .up a {
-    background: var(--dark-blue);
+    background: var(--dark-gray);
     color:var(--white);
     text-align: right;
     transition: var(--transition);
