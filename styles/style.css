@@ -1,4 +1,4 @@
-:root{
+:root {
     --dark-blue: #0d0e11;
     --middle-blue: #3a5168;
     --dark-gray: #393e41;
@@ -11,14 +11,14 @@
 }
 
 * {
-    margin:0;
+    margin: 0;
     padding: 0;
 }
 
 body {
     display: flex;
     flex-direction: column;
-    min-height: 100vh; 
+    min-height: 100vh;
     scroll-behavior: smooth scroll;
 }
 
@@ -26,17 +26,17 @@ main {
     flex-grow: 1;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-
 /** Section Header */
-#navbar, .bg-date-card{
+#navbar,
+.bg-date-card {
     background-color: var(--dark-gray) !important;
 }
 
-.navbar-toggler{
+.navbar-toggler {
     color: #cdc7be !important;
     border: 1px solid var(--light-gray);
 }
@@ -55,11 +55,15 @@ a{
     color: var(--dark-blue) !important;
 }
 
-/** Section Hero */ 
+/** Section Hero */
 .bg-image {
     width: 100%;
     height: auto;
-    background-image:linear-gradient(rgba(8, 18, 24, 0.507), rgba(8, 18, 24, 0.507)), url('../assets/ba1.jpg');
+    background-image: linear-gradient(
+            rgba(8, 18, 24, 0.507),
+            rgba(8, 18, 24, 0.507)
+        ),
+        url("../assets/ba1.jpg");
     background-position: center;
     background-size: cover;
     filter: contrast(1.1);
@@ -69,11 +73,12 @@ a{
     background-color: var(--light-green) !important;
 }
 
-.btn-submit{
+.btn-submit {
     background-color: var(--middle-green) !important;
 }
 
-.btn-submit:hover, .btn-success:hover{
+.btn-submit:hover,
+.btn-success:hover {
     background-color: var(--light-gray) !important;
     color: var(--dark-green) !important;
 }
@@ -88,9 +93,8 @@ a{
     object-fit: cover;
 }
 
-
 /** Section Lugar y Fecha */
-.img-fluid{
+.img-fluid {
     width: 100%;
     height: auto;
 }
@@ -102,7 +106,11 @@ span.text-dotted {
 
 /**Section Footer*/
 footer {
-    background: linear-gradient(90deg, rgb(6, 35, 65) 0%, rgb(44, 80, 119) 100%);
+    background: linear-gradient(
+        90deg,
+        rgb(6, 35, 65) 0%,
+        rgb(44, 80, 119) 100%
+    );
 }
 
 /** Message */
@@ -120,20 +128,20 @@ footer {
 
 .up a {
     background: var(--dark-gray);
-    color:var(--white);
+    color: var(--white);
     text-align: right;
     transition: var(--transition);
     font-size: 1rem;
     padding: 1rem;
-  }
-  
-  .up a:hover{
+}
+
+.up a:hover {
     transition: all 0.5s ease-in;
-    color:var(--middle-green);
-  }
+    color: var(--middle-green);
+}
 
 @media screen and (min-width: 768px) {
-    #navbar{
+    #navbar {
         padding: 0.5rem 1.5rem;
     }
     .hero-content {
@@ -148,19 +156,20 @@ footer {
         padding-right: 6rem !important;
     }
 
-    .btn-custom{
+    .btn-custom {
         justify-content: flex-end !important;
-        gap:1rem;
+        gap: 1rem;
     }
 
-    #lugar, 
-    #hero, 
+    #lugar,
+    #hero,
     #formulario {
         margin-bottom: 1rem !important;
         padding-top: 4rem;
     }
 
-    #lugar, .img-fluid {
+    #lugar,
+    .img-fluid {
         height: 70vh;
     }
 
@@ -168,4 +177,3 @@ footer {
         padding: 0 8rem;
     }
 }
-
