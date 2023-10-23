@@ -1,5 +1,5 @@
 function navigateTicketek (){
-    window.open("https://www.ticketek.com.ar", "_blank");
+    window.open("../pages/tickets.html", "_blank");
 };
 
 const form = document.getElementById("messageForm");
