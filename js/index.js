@@ -1,6 +1,3 @@
-function navigateTicketek (){
-    window.open("../pages/tickets.html", "_blank");
-};
 
 const form = document.getElementById("messageForm");
 const confirmatinMesagge = document.getElementById("confirmationMessage");
