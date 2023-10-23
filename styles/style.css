@@ -141,6 +141,17 @@ footer {
     color: var(--middle-green);
 }
 
+/** Section Tickets */
+#category {
+    padding-top: 2rem;
+}
+.ticket-card{
+    border-radius: 0px;
+}
+
+
+
+
 @media screen and (min-width: 768px) {
     main {
         margin-top: 0;
@@ -179,5 +190,9 @@ footer {
 
     .contact {
         padding: 0 8rem;
+    }
+
+    #category{
+        padding-top: 6rem;
     }
 }
