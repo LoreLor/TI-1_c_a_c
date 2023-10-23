@@ -49,40 +49,34 @@
             <div class="container"> 
                 <div class="row row-cols-1 row-cols-md-3 row-cols-lg-3 g-1 align-items-center">
                     <div class="col">
-                        <a href="#">
-                            <div class="card text-center ticket-card border-primary" id="estudiante">
-                                <div class="card-body">
-                                    <h5 class="card-title">Estudiante</h5>
-                                    <p class="card-text fs-6">Tienen un descuento</p>
-                                    <h6><strong>80</strong>%</h6>
-                                    <small class="text-secondary">*presentar documentación</small>
-                                </div>
+                        <div class="card text-center ticket-card border-primary" id="estudiante">
+                            <div class="card-body">
+                                <h5 class="card-title">Estudiante</h5>
+                                <p class="card-text fs-6">Tienen un descuento</p>
+                                <h6><strong>80</strong>%</h6>
+                                <small class="text-secondary">*presentar documentación</small>
                             </div>
-                        </a>
+                        </div>
                     </div>
                     <div class="col">
-                        <a href="#">
-                            <div class="card text-center ticket-card border-success" id="trainee">
-                                <div class="card-body">
-                                    <h5 class="card-title">Trainee</h5>
-                                    <p class="card-text fs-6">Tienen un descuento</p>
-                                    <h6><strong>50</strong>%</h6>
-                                    <small class="text-secondary">*presentar documentación</small>
-                                </div>
+                        <div class="card text-center ticket-card border-success" id="trainee">
+                            <div class="card-body">
+                                <h5 class="card-title">Trainee</h5>
+                                <p class="card-text fs-6">Tienen un descuento</p>
+                                <h6><strong>50</strong>%</h6>
+                                <small class="text-secondary">*presentar documentación</small>
                             </div>
-                        </a>
+                        </div>
                     </div>
                     <div class="col">
-                        <a href="#">
-                            <div class="card text-center ticket-card border-warning" id="junior">
-                                <div class="card-body">
-                                    <h5 class="card-title">Junior</h5>
-                                    <p class="card-text fs-6">Tienen un descuento</p>
-                                    <h6><strong>15</strong>%</h6>
-                                    <small class="text-secondary">*presentar documentación</small>
-                                </div>
+                        <div class="card text-center ticket-card border-warning" id="junior">
+                            <div class="card-body">
+                                <h5 class="card-title">Junior</h5>
+                                <p class="card-text fs-6">Tienen un descuento</p>
+                                <h6><strong>15</strong>%</h6>
+                                <small class="text-secondary">*presentar documentación</small>
                             </div>
-                        </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -147,9 +141,9 @@
                         </div>
 
                         <div class="pt-3">
-                            <span class="input-group-text" id="pago-text">Total a Pagar: $
+                            <span class="input-group-text pe-3" id="pago-text">Total a Pagar: $
                                 <input
-                                    class="form-control"
+                                    class="form-control ms-2"
                                     id="pago"
                                     type="text"
                                 />
@@ -159,13 +153,14 @@
                         <!-- Buttons -->
                         <div class="d-flex flex-column flex-md-row btn-custom py-3">
                             <button 
-                                type="submit" 
+                                type="reset" 
                                 class="col btn btn-submit fs-6 text-white fw-semibold my-2 d-block w-100"
                             >
                                 Borrar
                             </button>
                             <button 
-                                type="submit" 
+                                id="calcularCuenta"
+                                type="button" 
                                 class="col btn btn-submit fs-6 text-white fw-semibold my-2 d-block w-100"
                             >
                                 Resumen
