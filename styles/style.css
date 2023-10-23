@@ -1,5 +1,6 @@
 :root {
     --dark-blue: #0d0e11;
+    --blue: #3459d3;
     --middle-blue: #3a5168;
     --dark-gray: #393e41;
     --middle-gray: #71827d;
@@ -150,8 +151,10 @@ footer {
     border-radius: 0px;
 }
 
-
-
+#pago, #pago-text {
+    background-color: #bee3f8;
+    color: var(--blue) !important;
+}
 
 
 
