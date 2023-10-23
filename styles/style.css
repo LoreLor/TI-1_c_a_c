@@ -152,7 +152,7 @@ footer {
 }
 
 
-#pago, #pago-text {
+#pago, #pago-span {
     background-color: #bee3f8;
     color: var(--blue) !important;
 }
