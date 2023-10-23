@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../styles/style.css">
 </head>
 <body>
+    <!-- Header-Navbar-Links -->
     <header>
         <nav class="navbar navbar-expand-lg fixed-top mb-4" id="navbar">
             <div class="container-fluid">
@@ -43,9 +44,10 @@
     </header>
 
     <main>
+        <!-- Categoria de Estudiante -->
         <section id="category">
             <div class="container"> 
-                <div class="row row-cols-2 row-cols-md-3 row-cols-lg-3 g-1 align-items-center">
+                <div class="row row-cols-1 row-cols-md-3 row-cols-lg-3 g-1 align-items-center">
                     <div class="col">
                         <a href="#">
                             <div class="card text-center ticket-card border-primary" id="estudiante">
@@ -81,6 +83,97 @@
                                 </div>
                             </div>
                         </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Formulario de venta de tickets -->
+        <section id="venta-ticket">
+                <div class="d-flex flex-column justify-content-center align-items-center">
+                    <P class="fs-6 text-uppercase">venta</P>
+                    <h2 class="pb-2 text-uppercase fs-2">valor de ticket $200</h2>
+                </div>
+                <div class="container-lg d-flex flex-column contact">
+                    <form class="row g-3 form-content" id="messageForm">
+                        <div class="col-md-6">
+                            <input 
+                                type="text" 
+                                class="form-control text-black-50" 
+                                id="name"
+                                placeholder="Nombre"
+                                required
+                            >
+                        </div>
+
+                        <div class="col-md-6">
+                            <input 
+                                type="text" 
+                                class="form-control text-black-50" 
+                                id="lastName"
+                                placeholder="Apellido"
+                                required
+                            >
+                        </div>
+
+                        <div>
+                            <input
+                                class="form-control text-black-50"
+                                id="email"
+                                type="email"
+                                placeholder="Email"
+                            >
+                        </div>
+                
+                        <div class="col-md-6">
+                            <input 
+                                type="number" 
+                                min="0"
+                                class="form-control text-black-50" 
+                                id="cantidad"
+                                placeholder="Cantidad"
+                                required
+                            >
+                        </div>
+
+                        <div class="col-md-6">
+                            <select name="estudiante" id="estudiante" class="form-select text-black-50">
+                                <option selected>Elige tu Categoría</option>
+                                <option value="estudiante">Estudiante</option>
+                                <option value="trainee">Trainee</option>
+                                <option value="junior">Junior</option>
+
+                            </select>
+                        </div>
+
+                        <div>
+                            <input
+                                class="form-control text-black-50"
+                                id="pago"
+                                type="text"
+                                placeholder="Total a Pagar: $"
+                            />
+                        </div>
+
+                        <!-- Buttons -->
+                        <div class="d-flex flex-column flex-md-row btn-custom pb-4">
+                            <button 
+                                type="submit" 
+                                class="col btn btn-submit fs-6 text-white fw-semibold my-2 d-block w-100"
+                            >
+                                Borrar
+                            </button>
+                            <button 
+                                type="submit" 
+                                class="col btn btn-submit fs-6 text-white fw-semibold my-2 d-block w-100"
+                            >
+                                Resumen
+                            </button>
+                        </div>
+                        </div>
+                    </form>
+                    <div id="confirmationMessage" class="message-send">
+                        ¡Mensaje enviado con éxito!
                     </div>
                 </div>
             </div>

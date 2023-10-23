@@ -6,7 +6,7 @@
     --light-gray: #cdc7be;
     --light-green: #038603;
     --white: #f0f3e0;
-    --middle-green: #6dc23c;
+    --middle-green: #91C84B;
     --dark-green: #04290c;
 }
 
@@ -142,12 +142,15 @@ footer {
 }
 
 /** Section Tickets */
-#category {
-    padding-top: 2rem;
+#category, #venta-ticket {
+    padding-top: 1rem;
 }
+
 .ticket-card{
     border-radius: 0px;
 }
+
+
 
 
 
@@ -156,9 +159,11 @@ footer {
     main {
         margin-top: 0;
     }
+
     #navbar {
         padding: 0.5rem 1.5rem;
     }
+
     .hero-content {
         justify-content: center !important;
         align-items: end !important;
@@ -194,5 +199,16 @@ footer {
 
     #category{
         padding-top: 6rem;
+        margin: 0 6rem;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    #category{
+        margin: 2rem 20%;
+    }
+
+    #venta-ticket {
+        margin: 0 11%;
     }
 }
