@@ -18,7 +18,7 @@ $calcularCuenta.addEventListener('click',() => {
         total = (200 * cantidad) - (200 * cantidad * 0.15)
     } else {
         swal({
-            title: "Error de Ingreso!",
+            title: "Error!",
             text: "Ingresa una opcion válida",
             icon: "error",
             button: "OK",
