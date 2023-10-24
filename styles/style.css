@@ -151,17 +151,13 @@ footer {
     border-radius: 0px;
 }
 
-.contact input::placeholder{
+.contact input::placeholder, .form-select{
     color: #71827d;
     font-style: italic;
     opacity: .50;
 }
 
-.form-select{
-    color: #71827d;
-    font-style: italic;
-    opacity: .50; 
-}
+
 
 #pago, #pago-span {
     background-color: #bee3f8;
