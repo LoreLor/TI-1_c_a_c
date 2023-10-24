@@ -3,7 +3,12 @@ const confirmatinMesagge = document.getElementById("confirmationMessage");
 
 form.addEventListener("submit",(e) => {
     e.preventDefault();
-    confirmatinMesagge.style.display = "flex";
+    swal({
+        title: "Mensaje enviado satisfactoriamente",
+        text: "Enviado Satisfactoriamente",
+        icon: "success",
+        button: "OK",
+      });
 
     const name = document.getElementById("name");
     const lastName  = document.getElementById("lastName");
@@ -12,9 +17,5 @@ form.addEventListener("submit",(e) => {
     name.value = "";
     lastName.value = "";
     message.value = "";
-
-    setTimeout(() => {
-        confirmatinMesagge.style.display = "none";
-    }, 3000);
 
 });
