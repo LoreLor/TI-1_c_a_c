@@ -94,7 +94,7 @@
                         <div class="col-md-6">
                             <input 
                                 type="text" 
-                                class="form-control text-black-50" 
+                                class="form-control" 
                                 id="name"
                                 placeholder="Nombre"
                                 required
@@ -104,7 +104,7 @@
                         <div class="col-md-6">
                             <input 
                                 type="text" 
-                                class="form-control text-black-50" 
+                                class="form-control" 
                                 id="lastName"
                                 placeholder="Apellido"
                                 required
@@ -113,7 +113,7 @@
                         <!-- Input Email -->
                         <div>
                             <input
-                                class="form-control text-black-50"
+                                class="form-control"
                                 id="email"
                                 type="email"
                                 placeholder="Email"
@@ -121,17 +121,20 @@
                         </div>
                         <!-- Input Cantidad -->
                         <div class="col-md-6">
-                            <input 
-                                type="number" 
-                                min="0"
-                                class="form-control text-black-50" 
-                                id="cantidad"
-                                placeholder="Cantidad"
-                                required
-                            >
+                            <label for="cantidad"  class="form-label text-black-50 ps-1">Cantidad</label>
+                                <input 
+                                    type="number" 
+                                    min="0"
+                                    class="form-control" 
+                                    id="cantidad"
+                                    placeholder="Cantidad"
+                                    required
+                                >
+                            
                         </div>
                         <!-- Input Categoria -->
                         <div class="col-md-6">
+                            <label for="categoria"  class="form-label text-black-50 ps-1">Categoria</label>
                             <select name="categoria" id="categoria" class="form-select text-black-50">
                                 <option selected>Elige tu Categoría</option>
                                 <option value="estudiante">Estudiante</option>
