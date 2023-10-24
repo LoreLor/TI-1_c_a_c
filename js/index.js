@@ -5,7 +5,6 @@ form.addEventListener("submit",(e) => {
     e.preventDefault();
     swal({
         title: "Mensaje enviado satisfactoriamente",
-        text: "Enviado Satisfactoriamente",
         icon: "success",
         button: "OK",
       });
