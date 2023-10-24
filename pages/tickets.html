@@ -90,6 +90,7 @@
                 </div>
                 <div class="container-lg d-flex flex-column contact">
                     <form class="row g-3 form-content" id="messageForm">
+                        <!-- Input Name -->
                         <div class="col-md-6">
                             <input 
                                 type="text" 
@@ -99,7 +100,7 @@
                                 required
                             >
                         </div>
-
+                        <!-- Input Apellido -->
                         <div class="col-md-6">
                             <input 
                                 type="text" 
@@ -109,7 +110,7 @@
                                 required
                             >
                         </div>
-
+                        <!-- Input Email -->
                         <div>
                             <input
                                 class="form-control text-black-50"
@@ -118,7 +119,7 @@
                                 placeholder="Email"
                             >
                         </div>
-                
+                        <!-- Input Cantidad -->
                         <div class="col-md-6">
                             <input 
                                 type="number" 
@@ -129,17 +130,16 @@
                                 required
                             >
                         </div>
-
+                        <!-- Input Categoria -->
                         <div class="col-md-6">
                             <select name="categoria" id="categoria" class="form-select text-black-50">
                                 <option selected>Elige tu Categoría</option>
                                 <option value="estudiante">Estudiante</option>
                                 <option value="trainee">Trainee</option>
                                 <option value="junior">Junior</option>
-
                             </select>
                         </div>
-
+                        <!-- Input Total a Pagar -->
                         <div class="pt-3">
                             <span class="input-group-text pe-3" id="pago-span">Total a Pagar: $ <strong id="pago"></strong></span>
                         </div>
@@ -163,9 +163,7 @@
                         </div>
                         </div>
                     </form>
-                    <div id="confirmationMessage" class="message-send">
-                        ¡Mensaje enviado con éxito!
-                    </div>
+                    <div id="confirmationMessage" class="message-send"></div>
                 </div>
             </div>
         </section>
