@@ -155,6 +155,7 @@ footer {
 #pago, #pago-span {
     background-color: #bee3f8;
     color: var(--blue) !important;
+    padding: 0.8rem 0.7rem;
 }
 
 
